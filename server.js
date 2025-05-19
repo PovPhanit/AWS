@@ -11,7 +11,7 @@ const { S3Client } = require('@aws-sdk/client-s3');
 const { Upload } = require('@aws-sdk/lib-storage');
 
 const app = express();
-const PORT = 3000;
+const PORT = 4000;
 
 app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
